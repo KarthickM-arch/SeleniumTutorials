@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Test Suite" parallel = "methods" thread-count = "3">
+
+<Listeners>
+<Listener class-name = "testNG.ListenersExample">
+</Listener>
+</Listeners>
+
+<test name = "Test cases">
+
+<parameter name = "Name" value = "KarthickMuthu">
+</parameter>
+
+<!-- <groups>
+<run>
+
+<include name = "Moto">
+</include>
+
+<include name = "Vivo">
+</include>
+
+<exclude name = "Oneplus">
+</exclude>
+
+</run>
+</groups> -->
+
+<classes>
+
+<!-- <class name = "testNG.DependanciesManagement">
+</class> -->
+
+<!-- <class name = "testNG.DriveACar">
+</class>
+
+<class name = "testNG.SkipATestCase">
+</class>
+
+<class name = "testNG.GroupingExample">
+</class> 
+
+<class name = "testNG.ParallelTesting">
+</class> -->
+
+<!-- <class name = "testNG.SampleTestCase">
+</class> -->
+
+<class name = "testNG.ParameterizationExample">
+</class> 
+
+</classes>
+</test>
+</suite>
