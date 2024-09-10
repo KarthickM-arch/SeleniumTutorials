@@ -24,6 +24,9 @@ public class OpenGoogle {
 
 		//2. Google home page
 		driver.get("https://www.google.com/");
+		
+		//3. Maximize the window
+		driver.manage().window().maximize();
 	
 		//WebElement - I/F
 		WebElement text = driver.findElement(By.name("q"));
