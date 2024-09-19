@@ -32,7 +32,7 @@ public class DropdownExample {
 		Thread.sleep(3000);
 		select.selectByVisibleText("Cypress");
 
-		//Get the number of dropdown options
+		//Get the number of drop down options
 		//List -> I/F.
 		List<WebElement> listOfoptions = select.getOptions();
 		int size = listOfoptions.size();
